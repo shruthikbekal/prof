@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en"><head>
+<meta charset="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Contact | Dr. Shruthi K Bekal</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@400;700&family=Inter:wght@400;500;600&family=Manrope:wght@500;600;700&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet"/>
+<script>tailwind.config={darkMode:"class",theme:{extend:{colors:{"secondary-fixed":"#cfe6f2","on-error":"#ffffff","on-primary-fixed-variant":"#343d96","on-background":"#191c1d","on-primary-fixed":"#000767","tertiary":"#00201c","outline":"#767683","inverse-primary":"#bdc2ff","on-primary-container":"#8690ee","background":"#f8f9fa","secondary-fixed-dim":"#b4cad6","on-surface-variant":"#454652","primary-fixed":"#e0e0ff","surface-bright":"#f8f9fa","error":"#ba1a1a","on-error-container":"#93000a","error-container":"#ffdad6","outline-variant":"#c6c5d4","tertiary-fixed":"#8df5e4","primary-fixed-dim":"#bdc2ff","surface-container-high":"#e7e8e9","secondary-container":"#cfe6f2","on-tertiary":"#ffffff","primary":"#000666","tertiary-fixed-dim":"#70d8c8","on-tertiary-container":"#3ba899","on-tertiary-fixed":"#00201c","primary-container":"#1a237e","surface-container-low":"#f3f4f5","surface":"#f8f9fa","surface-container-lowest":"#ffffff","on-surface":"#191c1d","surface-variant":"#e1e3e4","tertiary-container":"#003731","on-primary":"#ffffff","surface-container-highest":"#e1e3e4","inverse-on-surface":"#f0f1f2","on-secondary-fixed":"#071e27","on-secondary-container":"#526772","on-secondary":"#ffffff","surface-container":"#edeeef","on-tertiary-fixed-variant":"#005048","surface-dim":"#d9dadb","secondary":"#4c616c","inverse-surface":"#2e3132","surface-tint":"#4c56af","on-secondary-fixed-variant":"#354a53"},fontFamily:{"headline":["Noto Serif","serif"],"body":["Inter","sans-serif"],"label":["Manrope","sans-serif"]},borderRadius:{"DEFAULT":"0.125rem","lg":"0.25rem","xl":"0.5rem","full":"0.75rem"}}}}</script>
+<style>
+.material-symbols-outlined{font-variation-settings:'FILL' 0,'wght' 400,'GRAD' 0,'opsz' 24;}
+.editorial-grid{display:grid;grid-template-columns:repeat(12,1fr);gap:1.5rem;}
+body{font-family:'Inter',sans-serif;background:radial-gradient(circle at top left,rgba(207,230,242,.55),transparent 26%),radial-gradient(circle at top right,rgba(224,224,255,.7),transparent 30%),#f8f9fa;}
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .55s ease,transform .55s ease;}
+.reveal.visible{opacity:1;transform:none;}
+.no-scrollbar::-webkit-scrollbar{display:none;}.no-scrollbar{-ms-overflow-style:none;scrollbar-width:none;}
+</style>
+</head>
+<body class="bg-background text-on-background">
+<nav class="fixed top-0 z-50 w-full border-b border-white/30 bg-white/70 backdrop-blur-md">
+<div class="flex max-w-7xl items-center justify-between mx-auto px-6 py-4 md:px-8">
+<a href="index.html" class="font-headline text-xl font-bold text-[#1A237E]">Dr. Shruthi K Bekal</a>
+<div class="hidden md:flex items-center gap-8"><a class="font-headline text-lg font-bold text-slate-600 hover:text-[#1A237E] transition-colors" href="index.html">Home</a><a class="font-headline text-lg font-bold text-slate-600 hover:text-[#1A237E] transition-colors" href="experience.html">Experience</a><a class="font-headline text-lg font-bold text-slate-600 hover:text-[#1A237E] transition-colors" href="research.html">Research</a><a class="font-headline text-lg font-bold text-slate-600 hover:text-[#1A237E] transition-colors" href="professional-development.html">Professional Dev</a><a class="font-headline text-lg font-bold text-[#1A237E] border-b-2 border-[#1A237E] pb-1" href="contact.html">Contact</a></div>
+<div class="flex items-center gap-3">
+<a href="#" class="hidden md:inline-flex rounded-md bg-primary px-6 py-2 font-label font-semibold text-on-primary hover:opacity-90 transition-all active:scale-95">Download CV</a>
+<button id="menu-toggle" type="button" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden rounded-md border border-outline-variant bg-white p-2 text-primary"><span class="material-symbols-outlined">menu</span></button>
+</div>
+</div>
+<div id="mobile-menu" class="hidden border-t border-outline-variant/40 bg-white/95 px-6 py-4 md:hidden">
+<div class="flex flex-col gap-1"><a href="index.html" class="mobile-link block py-2 font-label font-semibold text-sm text-on-surface hover:text-[#1A237E] transition-colors">Home</a><a href="experience.html" class="mobile-link block py-2 font-label font-semibold text-sm text-on-surface hover:text-[#1A237E] transition-colors">Experience</a><a href="research.html" class="mobile-link block py-2 font-label font-semibold text-sm text-on-surface hover:text-[#1A237E] transition-colors">Research</a><a href="professional-development.html" class="mobile-link block py-2 font-label font-semibold text-sm text-on-surface hover:text-[#1A237E] transition-colors">Professional Dev</a><a href="contact.html" class="mobile-link block py-2 font-label font-semibold text-sm text-on-surface hover:text-[#1A237E] transition-colors">Contact</a><a href="#" class="mt-3 rounded-md bg-primary px-4 py-3 text-center font-label font-semibold text-sm text-on-primary block">Download CV</a></div>
+</div>
+</nav>
+<main class="pt-32 pb-20 px-6 max-w-7xl mx-auto">
+<header class="mb-16 reveal">
+<h1 class="font-headline text-5xl md:text-7xl font-bold text-primary mb-6 tracking-tight">Connect for <span class="italic text-on-primary-container">Academic &amp; Research</span> Collaboration</h1>
+<p class="font-body text-xl text-on-surface-variant max-w-2xl leading-relaxed">Whether you are looking for research mentorship, consulting in business analytics, or professional networking, reach out to explore how we can work together.</p>
+</header>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-4 space-y-8 lg:mt-12 reveal">
+<div class="p-8 bg-surface-container-low rounded-lg space-y-10">
+<div>
+<span class="font-label text-xs uppercase tracking-widest text-on-tertiary-container font-bold block mb-4">Direct Contact</span>
+<div class="space-y-6">
+<a class="group flex items-start gap-4" href="mailto:bekalshruthi@gmail.com">
+<span class="material-symbols-outlined text-primary p-2 bg-primary-fixed rounded-lg group-hover:bg-primary group-hover:text-on-primary transition-all">mail</span>
+<div><p class="font-label text-sm text-outline">Email Address</p><p class="font-body font-semibold text-primary">bekalshruthi@gmail.com</p></div>
+</a>
+<a class="group flex items-start gap-4" href="tel:+919738502214">
+<span class="material-symbols-outlined text-primary p-2 bg-primary-fixed rounded-lg group-hover:bg-primary group-hover:text-on-primary transition-all">call</span>
+<div><p class="font-label text-sm text-outline">Phone Number</p><p class="font-body font-semibold text-primary">+91 9738502214</p></div>
+</a>
+</div>
+</div>
+<div class="pt-6 border-t border-outline-variant/20">
+<span class="font-label text-xs uppercase tracking-widest text-on-tertiary-container font-bold block mb-4">Office Location</span>
+<div class="flex items-start gap-4">
+<span class="material-symbols-outlined text-primary p-2 bg-primary-fixed rounded-lg">location_on</span>
+<div><p class="font-label text-sm text-outline">Based in</p><p class="font-body font-semibold text-primary">Bangalore, India</p></div>
+</div>
+</div>
+<div class="pt-6 border-t border-outline-variant/20">
+<span class="font-label text-xs uppercase tracking-widest text-on-tertiary-container font-bold block mb-4">Social Network</span>
+<a class="inline-flex items-center gap-2 px-4 py-2 bg-primary-container text-white rounded-md hover:bg-primary transition-all" href="mailto:bekalshruthi@gmail.com?subject=LinkedIn%20Profile%20Request">
+<span class="font-body font-medium">Connect on LinkedIn</span>
+<span class="material-symbols-outlined text-sm">open_in_new</span>
+</a>
+</div>
+</div>
+<div class="relative h-48 rounded-lg overflow-hidden bg-gradient-to-br from-primary to-primary-container p-8 flex items-end">
+<div class="absolute inset-0 opacity-20 bg-[radial-gradient(circle_at_1px_1px,rgba(255,255,255,.3)_1px,transparent_0)] bg-[length:22px_22px] mix-blend-overlay"></div>
+<p class="relative font-headline text-on-primary text-xl font-bold leading-tight">Bridging theoretical knowledge with practical analytics.</p>
+</div>
+</div>
+<div class="lg:col-span-8 reveal">
+<div class="bg-surface-container-lowest p-8 md:p-12 rounded-lg shadow-sm">
+<h3 class="font-headline text-3xl font-bold text-primary mb-8">Send a Message</h3>
+<form class="space-y-8" action="mailto:bekalshruthi@gmail.com" method="post" enctype="text/plain">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="space-y-2">
+<label for="name" class="font-label text-sm font-semibold text-on-surface-variant">Full Name</label>
+<input id="name" name="Full Name" class="w-full bg-surface-container-low border-none focus:ring-2 focus:ring-primary-container rounded-md px-4 py-3 font-body text-on-surface" placeholder="John Doe" type="text" required/>
+</div>
+<div class="space-y-2">
+<label for="email" class="font-label text-sm font-semibold text-on-surface-variant">Email Address</label>
+<input id="email" name="Email" class="w-full bg-surface-container-low border-none focus:ring-2 focus:ring-primary-container rounded-md px-4 py-3 font-body text-on-surface" placeholder="john@university.edu" type="email" required/>
+</div>
+</div>
+<div class="space-y-2">
+<label for="subject" class="font-label text-sm font-semibold text-on-surface-variant">Subject</label>
+<input id="subject" name="Subject" class="w-full bg-surface-container-low border-none focus:ring-2 focus:ring-primary-container rounded-md px-4 py-3 font-body text-on-surface" placeholder="Research Inquiry / Consultation Request" type="text" required/>
+</div>
+<div class="space-y-2">
+<label for="message" class="font-label text-sm font-semibold text-on-surface-variant">Your Message</label>
+<textarea id="message" name="Message" class="w-full bg-surface-container-low border-none focus:ring-2 focus:ring-primary-container rounded-md px-4 py-3 font-body text-on-surface" placeholder="How can I help you today?" rows="6" required></textarea>
+</div>
+<div class="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+<p class="font-body text-sm text-outline">Submitting opens your mail client with the message pre-filled.</p>
+<button class="w-full md:w-auto px-10 py-4 bg-primary text-on-primary rounded-md font-label font-bold text-lg hover:shadow-lg hover:-translate-y-0.5 transition-all" type="submit">Send Message</button>
+</div>
+</form>
+</div>
+<div class="mt-8 bg-surface-container-low h-64 rounded-lg relative flex items-center justify-center group overflow-hidden">
+<div class="absolute inset-0 bg-gradient-to-br from-secondary-fixed to-primary-fixed opacity-70 group-hover:opacity-90 transition-opacity"></div>
+<div class="absolute inset-0 bg-[radial-gradient(circle_at_1px_1px,rgba(26,35,126,.1)_1px,transparent_0)] bg-[length:28px_28px]"></div>
+<div class="relative z-10 flex flex-col items-center text-center">
+<span class="material-symbols-outlined text-4xl text-primary mb-2" style="font-variation-settings:'FILL' 1,'wght' 500,'GRAD' 0,'opsz' 24">pin_drop</span>
+<p class="font-label text-sm font-bold text-on-surface tracking-widest uppercase">Bangalore, Karnataka</p>
+<p class="mt-2 max-w-xs font-body text-sm text-on-surface-variant leading-6">Available for academic collaboration, guest sessions, and consulting conversations.</p>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="mt-20 w-full border-t border-slate-100 bg-slate-50/80">
+<div class="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-8 py-12 md:flex-row">
+<div>
+<span class="font-headline text-xl font-bold text-[#1A237E]">Dr. Shruthi K Bekal</span>
+<p class="mt-2 font-body text-sm text-slate-500"><span id="footer-year"></span> Dr. Shruthi K Bekal. All rights reserved.</p>
+</div>
+<div class="flex flex-wrap gap-6 font-body text-sm text-slate-500">
+<a class="hover:text-slate-900 transition-colors" href="experience.html">Experience</a>
+<a class="hover:text-slate-900 transition-colors" href="research.html">Research</a>
+<a class="hover:text-slate-900 transition-colors" href="professional-development.html">Professional Dev</a>
+<a class="hover:text-slate-900 transition-colors" href="contact.html">Contact</a>
+</div>
+<div class="flex gap-3">
+<a href="mailto:bekalshruthi@gmail.com" class="flex h-10 w-10 items-center justify-center rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary transition-all"><span class="material-symbols-outlined text-xl">mail</span></a>
+<a href="contact.html" class="flex h-10 w-10 items-center justify-center rounded-full bg-surface-container-high text-primary hover:bg-primary hover:text-on-primary transition-all"><span class="material-symbols-outlined text-xl">waving_hand</span></a>
+</div>
+</div>
+</footer>
+<script>
+(function(){
+var mt=document.getElementById('menu-toggle'),mm=document.getElementById('mobile-menu');
+if(mt&&mm){
+  mt.addEventListener('click',function(){var e=mt.getAttribute('aria-expanded')==='true';mt.setAttribute('aria-expanded',String(!e));mm.classList.toggle('hidden');});
+  mm.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(){mm.classList.add('hidden');mt.setAttribute('aria-expanded','false');});});
+}
+var fy=document.getElementById('footer-year');if(fy)fy.textContent='© '+new Date().getFullYear();
+var ro=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('visible');ro.unobserve(e.target);}});},{threshold:0.12});
+document.querySelectorAll('.reveal').forEach(function(el){ro.observe(el);});
+})();
+</script>
+</body></html>
